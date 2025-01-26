@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "@/sections/website/Hero";
 import Navbar from "@/components/website/Navbar";
+import About from "@/sections/website/About";
 
 const HomePage = () => {
   return (
@@ -8,6 +9,9 @@ const HomePage = () => {
       <Navbar />
       <section className="relative">
         <Hero />
+      </section>
+      <section className="relative padding">
+        <About />
       </section>
     </main>
   );
