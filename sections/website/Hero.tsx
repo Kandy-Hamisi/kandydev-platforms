@@ -6,11 +6,12 @@ const Hero = () => {
   return (
     <section className="relative lg:min-h-screen flex gap-12 flex-row-reverse justify-between">
       <div className="flex-1 padding ring-5 ring-red-500 padding-t flex flex-col gap-6">
-        <h1 className="text-4xl md:text-6xl wide:text-8xl font-palanquin capitalize font-bold">
+        <h1 className="blue-text-gradient text-4xl md:text-6xl wide:text-8xl font-palanquin capitalize font-bold">
           Elevate Your Digital Presence
         </h1>
-        <h2 className="text-2xl wide:text-4xl max-w-[45rem] text-slate-600">
-          Digital Solutions Engineered to Perfection
+        <h2 className="text-2xl wide:text-4xl max-w-[45rem] font-semibold ">
+          Digital Solutions Engineered to{" "}
+          <span className="green-text-gradient">Perfection</span>
         </h2>
         <p className="leading-[35px] max-w-[40rem] text-md">
           Transform your business with cutting-edge web technologies that
@@ -20,7 +21,7 @@ const Hero = () => {
         </p>
         <div className="flex gap-4 items-center">
           <Button>View Portfolio</Button>
-          <Button className="bg-transparent text-black border border-gray-500 hover:text-white">
+          <Button className="bg-transparent text-white border border-gray-500 hover:text-white">
             The Perks
           </Button>
         </div>

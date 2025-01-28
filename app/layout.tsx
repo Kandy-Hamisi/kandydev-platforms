@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="w-full relative">{children}</body>
+      <body className="w-full relative black-gradient">{children}</body>
     </html>
   );
 }

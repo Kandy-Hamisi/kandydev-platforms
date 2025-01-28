@@ -26,13 +26,13 @@ const IntegrationsCard: React.FC<IntegrationCardProps> = ({
       <CardHeader className="flex flex-col pb-2">
         {Icon && (
           <div className="bg-blue-50 p-3 self-start rounded-full mb-3">
-            <Icon className="text-blue-600" size={24} />
+            <Icon className="text-blue-600" size={22} />
           </div>
         )}
         <CardTitle className="m-0">{title}</CardTitle>
       </CardHeader>
       <CardContent className="flex-grow">
-        <CardDescription className="text-xs leading-[25px] font-semibold">
+        <CardDescription className="text-xs leading-[25px]">
           {description}
         </CardDescription>
       </CardContent>
