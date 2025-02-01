@@ -3,6 +3,7 @@ import Hero from "@/sections/website/Hero";
 import Navbar from "@/components/website/Navbar";
 import About from "@/sections/website/About";
 import SecurityConcern from "@/sections/website/SecurityConcern";
+import Responsiveness from "@/sections/website/Responsiveness";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,7 @@ const HomePage = () => {
       <section className="relative w-full px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64 padding-t bg-pink">
         <About />
         <SecurityConcern />
+        <Responsiveness />
       </section>
     </main>
   );
