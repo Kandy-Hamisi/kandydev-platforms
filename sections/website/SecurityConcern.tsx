@@ -5,14 +5,14 @@ import Image from "next/image";
 
 const SecurityConcern = () => {
   return (
-    <section className="max-container min-h-screen relative">
-      <div className="flex justify-center padding-b">
-        <h1 className="green-text-gradient wide:text-4xl font-palanquin font-bold text-center">
+    <section className="max-container relative padding-x">
+      <div className="flex justify-center">
+        <h1 className="green-text-gradient wide:text-4xl sm:text-3xl font-palanquin font-bold text-center">
           Your Security is our concern. We protect your codebase, files,
           clients, and emails
         </h1>
       </div>
-      <div className="glass-morphism border border-gray-400 flex items-center gap-12 justify-between">
+      <div className="glass-morphism border mt-8 border-gray-400 flex flex-col xl:flex-row items-center gap-12 justify-between">
         <div className="flex-1 flex flex-col">
           <h4 className="wide:text-xl font-bold mb-4">
             Get seamless integrations with current secure technologies
@@ -27,7 +27,7 @@ const SecurityConcern = () => {
           </Button>
         </div>
 
-        <div className="flex-1">
+        <div className="flex-1 hidden xl:block">
           <div>
             <Image
               src="/comp.png"
