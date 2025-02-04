@@ -4,6 +4,8 @@ import Navbar from "@/components/website/Navbar";
 import About from "@/sections/website/About";
 import SecurityConcern from "@/sections/website/SecurityConcern";
 import Responsiveness from "@/sections/website/Responsiveness";
+import MainGoals from "@/sections/website/MainGoals";
+import Pricing from "@/sections/website/Pricing";
 
 const HomePage = () => {
   return (
@@ -16,6 +18,8 @@ const HomePage = () => {
         <About />
         <SecurityConcern />
         <Responsiveness />
+        <MainGoals />
+        <Pricing />
       </section>
     </main>
   );
